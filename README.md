@@ -1,5 +1,5 @@
 # autoclicker
-An open-source autoclicker for Windows.
+An open-source autoclicker free for anyone to use on Windows.
 
 Support the project: [Buy Me a Coffee](https://buymeacoffee.com/sjrwatson)
 
