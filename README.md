@@ -18,7 +18,19 @@ It uses Windows APIs (`windows.h`, `SendInput`, `GetAsyncKeyState`) and will not
 
 ---
 
-## Quick start (for beginners)
+## Download (easiest)
+
+Pre-built Windows executables are available on the [Releases](../../releases) page.
+
+1. Go to the **Releases** page.
+2. Download `autoclicker.exe` from the latest release.
+3. Run it — no compiler needed.
+
+> You can also grab the latest build artifact from the [Actions](../../actions) tab (requires a GitHub account).
+
+---
+
+## Build from source
 
 ### 1) Open a terminal in this folder
 You can use either:
@@ -31,7 +43,7 @@ Choose **one** of the options below.
 
 #### Option A: MSVC (Visual Studio tools)
 ```bat
-cl /O2 /W4 /EHsc autoclicker.c /link winmm.lib
+cl /O2 /W4 autoclicker.c /link winmm.lib
 ```
 
 #### Option B: MinGW-w64 GCC
