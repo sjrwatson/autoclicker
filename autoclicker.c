@@ -6,7 +6,7 @@
 
 int main(void) {
     printf("=== Autoclicker ===\n");
-    printf("Press the key you want to use as the autoclick toggle...\n");
+    printf("Choose autoclick trigger key by pressing it now...\n");
 
     // Wait for user to press a key and capture its virtual key code
     int toggleKey = 0;
