@@ -1,5 +1,7 @@
 # autoclicker
-An opensource autoclicker free for anyone to use
+An open-source autoclicker free for anyone to use
+
+Support the project: [Buy Me a Coffee](https://buymeacoffee.com/sjrwatson)
 
 ## Platform limitation
 This project is **Windows-only**. It uses Win32 APIs (`windows.h`, `SendInput`, `GetAsyncKeyState`) and will not compile or run on Linux/macOS.
