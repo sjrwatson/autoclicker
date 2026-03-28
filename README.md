@@ -1,5 +1,5 @@
 # autoclicker
-An opensource autoclicker free for anyone to use
+An open-source autoclicker free for anyone to use
 
 Support the project: [Buy Me a Coffee](https://buymeacoffee.com/sjrwatson)
 
