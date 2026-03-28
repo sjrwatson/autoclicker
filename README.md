@@ -100,3 +100,8 @@ Stopped. Total clicks: 1248
 - Make sure you are **holding** the selected key.
 - Try a different key (for example `F6` or `F8`).
 - Some apps/games may block synthetic input.
+
+---
+
+## License
+This project is released under **The Unlicense**. You can use it for any purpose, including commercial use.
