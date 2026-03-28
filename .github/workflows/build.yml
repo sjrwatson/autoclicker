@@ -20,7 +20,7 @@ jobs:
         uses: ilammy/msvc-dev-cmd@v1
 
       - name: Compile
-        run: cl /O2 /W4 autoclicker.c /link winmm.lib
+        run: cl /O2 /W4 autoclicker.c /link user32.lib winmm.lib
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

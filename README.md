@@ -43,12 +43,12 @@ Choose **one** of the options below.
 
 #### Option A: MSVC (Visual Studio tools)
 ```bat
-cl /O2 /W4 autoclicker.c /link winmm.lib
+cl /O2 /W4 autoclicker.c /link user32.lib winmm.lib
 ```
 
 #### Option B: MinGW-w64 GCC
 ```bat
-gcc -O2 -Wall -Wextra -o autoclicker.exe autoclicker.c -lwinmm
+gcc -O2 -Wall -Wextra -o autoclicker.exe autoclicker.c -luser32 -lwinmm
 ```
 
 If compilation succeeds, you should see `autoclicker.exe` in this folder.
