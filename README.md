@@ -51,12 +51,12 @@ autoclicker.exe
 ## How to use the application
 When the app starts, it prints:
 
-`Press the key you want to use as the autoclick toggle...`
+`Choose autoclick trigger key by pressing it now...`
 
 Follow these steps:
 
 1. Press the key you want to use (example: `F6`, `Q`, `]`).
-2. The app confirms your key selection.
+2. The app confirms your key selection and displays the key name and VK code.
 3. Hold that key to start autoclicking.
 4. Release the key to stop autoclicking.
 5. Press `Ctrl + C` in the terminal to close the app.
@@ -66,6 +66,7 @@ Follow these steps:
   This is not an on/off toggle switch.
 - Modifier-only keys are ignored when selecting a key  
   (Shift, Ctrl, Alt by themselves).
+- The app waits for you to release the key after selection before it begins listening for hold-to-click.
 - Clicking speed is very fast (about 1 ms delay between clicks).
 
 ---
@@ -73,7 +74,7 @@ Follow these steps:
 ## Example session
 ```text
 === Autoclicker ===
-Press the key you want to use as the autoclick toggle...
+Choose autoclick trigger key by pressing it now...
 Toggle key set to: F6 (VK code: 0x75)
 Hold that key to autoclick. Press Ctrl+C to exit.
 
